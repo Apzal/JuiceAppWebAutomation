@@ -1,18 +1,18 @@
 package pages;
 
-import base.BasePage;
-import base.DriverContext;
+import base.web.WebBasePage;
+import base.web.WebDriverContext;
 import org.openqa.selenium.By;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class BasketPage extends BasePage {
+public class BasketPage extends WebBasePage {
 
     By price = By.id("price");
 
-    public BasketPage(DriverContext driverContext) {
-        super(driverContext);
+    public BasketPage(WebDriverContext webDriverContext) {
+        super(webDriverContext);
     }
 
 

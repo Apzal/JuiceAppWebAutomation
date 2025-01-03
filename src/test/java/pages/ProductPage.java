@@ -1,13 +1,13 @@
 package pages;
 
 
-import base.BasePage;
-import base.DriverContext;
+import base.web.WebBasePage;
+import base.web.WebDriverContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 
-public class ProductPage extends BasePage {
+public class ProductPage extends WebBasePage {
 
     Logger logger = LogManager.getLogger(ProductPage.class);
 
@@ -25,8 +25,8 @@ public class ProductPage extends BasePage {
 
     By yourBasketCount = By.xpath("//button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]");
 
-    public ProductPage(DriverContext driverContext) {
-        super(driverContext);
+    public ProductPage(WebDriverContext webDriverContext) {
+        super(webDriverContext);
     }
 
     public void dismissWelcomeMessage(){

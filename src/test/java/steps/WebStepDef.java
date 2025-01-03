@@ -1,9 +1,9 @@
 package steps;
 
-import base.BasePage;
+import base.web.WebBasePage;
 import base.DataContext;
-import base.DriverContext;
-import base.PageInstance;
+import base.web.WebDriverContext;
+import base.web.WebPageInstance;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -20,11 +20,11 @@ public class WebStepDef {
 
     Logger logger = LogManager.getLogger(WebStepDef.class);
 
-    private final DriverContext driverContext;
+    private final WebDriverContext webDriverContext;
     private final DataContext dataContext;
 
     private final ProductPage productPage;
-    private final BasePage basePage;
+    private final WebBasePage webBasePage;
     private final RegistrationPage registrationPage;
     private final LogInPage logInPage;
     private final BasketPage basketPage;
@@ -34,22 +34,22 @@ public class WebStepDef {
 
     String email = "", password = "", zipcode = "";
 
-    public WebStepDef(DriverContext driverContext, DataContext dataContext) {
-        this.driverContext = driverContext;
+    public WebStepDef(WebDriverContext webDriverContext, DataContext dataContext) {
+        this.webDriverContext = webDriverContext;
         this.dataContext = dataContext;
-        this.driverContext.currentPage = new PageInstance(driverContext);
+        this.webDriverContext.currentPage = new WebPageInstance(webDriverContext);
         generator = new RandomGenerator();
-        basePage = driverContext.currentPage.As(BasePage.class);
-        productPage = driverContext.currentPage.As(ProductPage.class);
-        registrationPage = driverContext.currentPage.As(RegistrationPage.class);
-        logInPage = driverContext.currentPage.As(LogInPage.class);
-        basketPage = driverContext.currentPage.As(BasketPage.class);
-        checkoutPage = driverContext.currentPage.As(CheckoutPage.class);
+        webBasePage = webDriverContext.currentPage.As(WebBasePage.class);
+        productPage = webDriverContext.currentPage.As(ProductPage.class);
+        registrationPage = webDriverContext.currentPage.As(RegistrationPage.class);
+        logInPage = webDriverContext.currentPage.As(LogInPage.class);
+        basketPage = webDriverContext.currentPage.As(BasketPage.class);
+        checkoutPage = webDriverContext.currentPage.As(CheckoutPage.class);
     }
 
     @Given("I open the application in the browser")
     public void iOpenTheApplicationInTheBrowser() {
-        basePage.launchBrowser();
+        webBasePage.launchBrowser();
     }
 
     @And("I set the maximum item per page as the max value")
@@ -66,7 +66,7 @@ public class WebStepDef {
     @And("I click on the {string}")
     public void iClickOnThe(String product) {
         this.dataContext.addToDictionary("productName", product);
-        basePage.clickElementContainsText(product);
+        webBasePage.clickElementContainsText(product);
     }
 
     @Then("I validate the popup display")
@@ -92,7 +92,7 @@ public class WebStepDef {
 
     @And("I wait for {int} seconds")
     public void iWaitForSeconds(int seconds) {
-        basePage.pause(seconds);
+        webBasePage.pause(seconds);
     }
 
     @Then("I close the product form")
@@ -137,7 +137,7 @@ public class WebStepDef {
     @And("I click on register and verify the successful message as below")
     public void iClickOnRegisterAndVerifyTheSuccessfulMessageAsBelow(List<String> message) {
         registrationPage.clickRegister();
-        Assert.assertTrue(basePage.getElementWithText(message.getFirst()).isDisplayed(),
+        Assert.assertTrue(webBasePage.getElementWithText(message.getFirst()).isDisplayed(),
                 "No success message displayed");
     }
 
@@ -151,7 +151,7 @@ public class WebStepDef {
         int counter = 0;
         for(String product:products){
             productPage.addToBasket(product);
-            Assert.assertTrue(basePage.getElementWithText("Placed "+product).isDisplayed(),
+            Assert.assertTrue(webBasePage.getElementWithText("Placed "+product).isDisplayed(),
                     String.format("No message displayed for %s after adding to basket",product));
             logger.info("Placed {}", product);
             Assert.assertEquals(productPage.getBasketCount(),++counter,"Number of Items in Basket not updated");
@@ -187,7 +187,7 @@ public class WebStepDef {
 
     @And("I click on checkout")
     public void iClickOnCheckout() {
-        basePage.clickElementContainsText("Checkout");
+        webBasePage.clickElementContainsText("Checkout");
     }
 
 
@@ -202,13 +202,13 @@ public class WebStepDef {
                 generator.getRandomCity(), generator.getRandomState());
 
         checkoutPage.selectAddress(name);
-        basePage.clickElementContainsText("Continue");
+        webBasePage.clickElementContainsText("Continue");
     }
 
     @And("I select delivery speed as {string}")
     public void iSelectDeliverySpeedAs(String deliverySpeed) {
         checkoutPage.selectDeliverySpeed(deliverySpeed);
-        basePage.clickElementContainsText("Continue");
+        webBasePage.clickElementContainsText("Continue");
     }
 
     @And("I verify wallet balance as {double}")
@@ -219,18 +219,18 @@ public class WebStepDef {
     
     @And("I add a new card details")
     public void iAddANewCardDetails() {
-        basePage.clickElementContainsText("Add a credit or debit card");
+        webBasePage.clickElementContainsText("Add a credit or debit card");
         String name = dataContext.readFromDictionary("name").toString();
         checkoutPage.fillCardDetails(name,generator.generateRandomNumber(16),0,0);
         checkoutPage.selectCard(name);
-        basePage.clickElementContainsText("Continue");
+        webBasePage.clickElementContainsText("Continue");
     }
 
     @Then("I complete the purchase")
     public void iCompleteThePurchase() {
-        basePage.clickElementContainsText("Place your order and pay");
-        Assert.assertTrue(basePage.getElementWithText("Thank you for your purchase!").isDisplayed(),"Order not placed");
-        String[] urlComponent = Objects.requireNonNull(this.driverContext.driver.getCurrentUrl()).split("/");
+        webBasePage.clickElementContainsText("Place your order and pay");
+        Assert.assertTrue(webBasePage.getElementWithText("Thank you for your purchase!").isDisplayed(),"Order not placed");
+        String[] urlComponent = Objects.requireNonNull(this.webDriverContext.driver.getCurrentUrl()).split("/");
         logger.info("Order id:{}", urlComponent[urlComponent.length - 1]);
     }
 }

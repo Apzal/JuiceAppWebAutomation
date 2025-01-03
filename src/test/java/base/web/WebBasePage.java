@@ -1,4 +1,4 @@
-package base;
+package base.web;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -21,19 +20,19 @@ import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
-public class BasePage extends PageInstance{
+public class WebBasePage extends WebPageInstance {
 
     private final ReadPropertyFile readProperty;
-    private final DriverContext driverContext;
+    private final WebDriverContext webDriverContext;
     private String browser = "";
     private String url = "";
     private int defaultTimeOutInSeconds = 0;
 
-    Logger logger = LogManager.getLogger(BasePage.class);
+    Logger logger = LogManager.getLogger(WebBasePage.class);
 
-    public BasePage(DriverContext driverContext) {
-        super(driverContext);
-        this.driverContext = driverContext;
+    public WebBasePage(WebDriverContext webDriverContext) {
+        super(webDriverContext);
+        this.webDriverContext = webDriverContext;
         readProperty = new ReadPropertyFile();
         setConfigurations();
     }
@@ -48,24 +47,24 @@ public class BasePage extends PageInstance{
         switch (browser.toLowerCase()){
             case "chrome":
                 ChromeOptions options = getChromeOptions();
-                this.driverContext.driver= new ChromeDriver(options);
+                this.webDriverContext.driver= new ChromeDriver(options);
                  break;
             case "edge":
-                this.driverContext.driver = new EdgeDriver();
+                this.webDriverContext.driver = new EdgeDriver();
                 break;
 
             case "firefox":
-                this.driverContext.driver = new FirefoxDriver();
+                this.webDriverContext.driver = new FirefoxDriver();
                 break;
             default:
-                this.driverContext.driver= new ChromeDriver();
+                this.webDriverContext.driver= new ChromeDriver();
 
         }
 
-        this.driverContext.driver.manage().window().maximize();
-        this.driverContext.driver.navigate().to(url);
-        driverContext.currentPage.As(ProductPage.class).dismissWelcomeMessage();
-        driverContext.currentPage.As(ProductPage.class).dismissCookieConsent();
+        this.webDriverContext.driver.manage().window().maximize();
+        this.webDriverContext.driver.navigate().to(url);
+        webDriverContext.currentPage.As(ProductPage.class).dismissWelcomeMessage();
+        webDriverContext.currentPage.As(ProductPage.class).dismissCookieConsent();
     }
 
     private ChromeOptions getChromeOptions() {
@@ -80,7 +79,7 @@ public class BasePage extends PageInstance{
 
 
     private WebDriverWait loadWaitTimer(int timeOutInSeconds){
-        WebDriverWait wait = new WebDriverWait(this.driverContext.driver, Duration.ofSeconds(timeOutInSeconds));
+        WebDriverWait wait = new WebDriverWait(this.webDriverContext.driver, Duration.ofSeconds(timeOutInSeconds));
         wait.ignoring(NoSuchElementException.class);
         wait.ignoring(StaleElementReferenceException.class);
         wait.ignoring(ElementClickInterceptedException.class);
@@ -90,7 +89,7 @@ public class BasePage extends PageInstance{
 
 
     public void waitForPageLoad(){
-        new WebDriverWait(this.driverContext.driver,
+        new WebDriverWait(this.webDriverContext.driver,
                 Duration.ofSeconds(defaultTimeOutInSeconds)).until(
                 webDriver -> Objects.equals(((JavascriptExecutor) webDriver)
                         .executeScript("return document.readyState"), "complete")
@@ -98,7 +97,7 @@ public class BasePage extends PageInstance{
 
     }
     private void highlightElement(WebElement element){
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) this.driverContext.driver;
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) this.webDriverContext.driver;
         jsExecutor.executeScript("arguments[0].style.border='2px solid red'", element);
         try{
             Thread.sleep(500);
@@ -154,7 +153,7 @@ public class BasePage extends PageInstance{
 
     public void scrollIntoView(By by) {
         WebElement element = getElement(by, defaultTimeOutInSeconds);
-        ((JavascriptExecutor) this.driverContext.driver).executeScript("arguments[0].scrollIntoView(true);", element);
+        ((JavascriptExecutor) this.webDriverContext.driver).executeScript("arguments[0].scrollIntoView(true);", element);
         logger.info("Scrolled into view for element:{}", element);
     }
 
@@ -197,7 +196,7 @@ public class BasePage extends PageInstance{
     }
 
     public void navigateToPage(String page){
-        this.driverContext.driver.navigate().to(url+"#/"+page);
+        this.webDriverContext.driver.navigate().to(url+"#/"+page);
     }
 
     public void selectByIndex(By locator, int index){
@@ -206,7 +205,7 @@ public class BasePage extends PageInstance{
     }
 
     public WebElement getElementViaJS(By locator){
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) this.driverContext.driver;
+        JavascriptExecutor jsExecutor = (JavascriptExecutor) this.webDriverContext.driver;
         return (WebElement) jsExecutor.executeScript(
                 "return document.evaluate(arguments[0], document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;",
                 locator

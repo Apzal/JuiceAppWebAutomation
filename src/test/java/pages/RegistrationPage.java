@@ -1,7 +1,7 @@
 package pages;
 
-import base.BasePage;
-import base.DriverContext;
+import base.web.WebBasePage;
+import base.web.WebDriverContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
@@ -10,7 +10,7 @@ import org.testng.Assert;
 
 import java.util.List;
 
-public class RegistrationPage extends BasePage {
+public class RegistrationPage extends WebBasePage {
 
     Logger logger = LogManager.getLogger(RegistrationPage.class);
 
@@ -31,8 +31,8 @@ public class RegistrationPage extends BasePage {
 
 
 
-    public RegistrationPage(DriverContext driverContext) {
-        super(driverContext);
+    public RegistrationPage(WebDriverContext webDriverContext) {
+        super(webDriverContext);
     }
 
     public void leaveAllFieldsBlank(){

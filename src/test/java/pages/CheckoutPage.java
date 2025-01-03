@@ -1,11 +1,11 @@
 package pages;
 
-import base.BasePage;
-import base.DriverContext;
+import base.web.WebBasePage;
+import base.web.WebDriverContext;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 
-public class CheckoutPage extends BasePage {
+public class CheckoutPage extends WebBasePage {
 
     By btnAddNewAddress = By.xpath("//button[@aria-label='Add a new address']");
     By inputCountry = By.xpath("//input[@placeholder='Please provide a country.']");
@@ -21,8 +21,8 @@ public class CheckoutPage extends BasePage {
     By selectExpiryMonth = By.xpath("//*[contains(text(),'Expiry Month')]/ancestor::div/select");
     By selectExpiryYear = By.xpath("//*[contains(text(),'Expiry Year')]/ancestor::div/select");
 
-    public CheckoutPage(DriverContext driverContext) {
-        super(driverContext);
+    public CheckoutPage(WebDriverContext webDriverContext) {
+        super(webDriverContext);
     }
 
     public void addNewAddress(){

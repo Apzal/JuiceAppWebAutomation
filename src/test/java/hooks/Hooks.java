@@ -1,7 +1,7 @@
 package hooks;
 
 import base.DataContext;
-import base.DriverContext;
+import base.web.WebDriverContext;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;
@@ -15,12 +15,12 @@ import java.util.Base64;
 
 public class Hooks {
 
-    private final DriverContext driverContext;
+    private final WebDriverContext webDriverContext;
     private final DataContext dataContext;
 
     static Logger logger = LogManager.getLogger(Hooks.class);
-    public Hooks(DriverContext driverContext, DataContext dataContext) {
-        this.driverContext = driverContext;
+    public Hooks(WebDriverContext webDriverContext, DataContext dataContext) {
+        this.webDriverContext = webDriverContext;
         this.dataContext = dataContext;
     }
 
@@ -38,10 +38,10 @@ public class Hooks {
     @After
     public void after(Scenario scenario) {
         dataContext.clearDictionary();
-        if (this.driverContext.driver != null) {
+        if (this.webDriverContext.driver != null) {
             ExtentCucumberAdapter.getCurrentStep().log(getStatus(scenario),
                     MediaEntityBuilder.createScreenCaptureFromBase64String(takeScreenshot()).build());
-            this.driverContext.driver.quit();
+            this.webDriverContext.driver.quit();
         }
         logger.info("Execution completed for scenario:{},Status:{}", scenario.getName(), getStatus(scenario));
     }
@@ -54,7 +54,7 @@ public class Hooks {
 
 
     public String takeScreenshot() {
-        byte[] screenshot = ((TakesScreenshot) driverContext.driver).getScreenshotAs(OutputType.BYTES);
+        byte[] screenshot = ((TakesScreenshot) webDriverContext.driver).getScreenshotAs(OutputType.BYTES);
         return Base64.getEncoder().encodeToString(screenshot);
     }
 
