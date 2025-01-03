@@ -28,9 +28,9 @@ public class BasketPage extends BasePage {
     }
 
     public void deleteProduct(String product){
-        getElements(By.xpath("//*[contains(text(),'"+product+"')]/..//button"))
+        waitForMinimumCountOfElements(By.xpath("//*[contains(text(),'"+product+"')]/..//button"),
+                3)
                 .getLast().click();
-
         waitForPageLoad();
     }
 }

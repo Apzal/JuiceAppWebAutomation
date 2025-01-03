@@ -3,10 +3,7 @@ package pages;
 import base.BasePage;
 import base.DriverContext;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
-
-import java.util.List;
 
 public class CheckoutPage extends BasePage {
 
@@ -21,7 +18,6 @@ public class CheckoutPage extends BasePage {
     By btnSubmit = By.id("submitButton");
 
     By walletBalance = By.xpath("//*[contains(text(),'Wallet Balance')]/following-sibling::span");
-    By inputFieldsPayment = By.xpath("//*[@role='region']//input");
     By selectExpiryMonth = By.xpath("//*[contains(text(),'Expiry Month')]/ancestor::div/select");
     By selectExpiryYear = By.xpath("//*[contains(text(),'Expiry Year')]/ancestor::div/select");
 
@@ -58,9 +54,8 @@ public class CheckoutPage extends BasePage {
     }
 
     public void fillCardDetails(String name,String cardNumber, int expiryMonthIndex,int expiryYearIndex){
-        List<WebElement> inputFields = getElements(inputFieldsPayment);
-        inputFields.getFirst().sendKeys(name);
-        inputFields.get(1).sendKeys(cardNumber);
+        setText(By.xpath("(//*[@role='region']//input)[1]"),name);
+        setText(By.xpath("(//*[@role='region']//input)[2]"),cardNumber);
         selectExpiryMonth(expiryMonthIndex);
         selectExpiryYear(expiryYearIndex);
 

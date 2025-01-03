@@ -7,6 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -14,7 +15,9 @@ import pages.ProductPage;
 import utilities.ReadPropertyFile;
 
 import java.time.Duration;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.TimeUnit;
 
@@ -67,18 +70,11 @@ public class BasePage extends PageInstance{
 
     private ChromeOptions getChromeOptions() {
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("test-type");
+        Map<String, Object> preference = new LinkedHashMap<>();
         options.addArguments("disable-notifications");
-
-
-//        options.addArguments("--disable-notifications");
-//        options.addArguments("--disable-popup-blocking");
-//        Map<String, Object> prefs = new HashMap<>();
-//        prefs.put("credentials_enable_service", false);
-//        prefs.put("profile.password_manager_enabled", false);
-//        prefs.put("profile.default_content_setting_values.notifications", 2);
-//
-//        options.setExperimentalOption("prefs", prefs);
+        preference.put("credentials_enable_service", Boolean.FALSE);
+        preference.put("profile.password_manager_enabled", Boolean.FALSE);
+        options.setExperimentalOption("prefs", preference);
         return options;
     }
 
@@ -166,6 +162,12 @@ public class BasePage extends PageInstance{
         WebDriverWait wait = loadWaitTimer(defaultTimeOutInSeconds);
         logger.info("Retrieve Multiple Elements, Locator Used : {}", locator);
         return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+    }
+
+    public List<WebElement> waitForMinimumCountOfElements(By locator,int count) {
+        WebDriverWait wait = loadWaitTimer(defaultTimeOutInSeconds);
+        logger.info("Retrieve Multiple Elements, Locator Used : {}", locator);
+        return wait.until(ExpectedConditions.numberOfElementsToBe(locator,count));
     }
 
     public void setText(By locator,String text){
