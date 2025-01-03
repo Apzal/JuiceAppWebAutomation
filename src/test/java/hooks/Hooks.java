@@ -1,7 +1,7 @@
 package hooks;
 
 import base.DataContext;
-import base.web.WebDriverContext;
+import base.WebDriverContext;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter;

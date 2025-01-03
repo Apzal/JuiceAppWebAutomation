@@ -1,4 +1,4 @@
-package base.web;
+package base;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -203,13 +203,4 @@ public class WebBasePage extends WebPageInstance {
         Select expiryMonth = new Select(getElement(locator));
         expiryMonth.selectByIndex(index);
     }
-
-    public WebElement getElementViaJS(By locator){
-        JavascriptExecutor jsExecutor = (JavascriptExecutor) this.webDriverContext.driver;
-        return (WebElement) jsExecutor.executeScript(
-                "return document.evaluate(arguments[0], document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;",
-                locator
-        );
-    }
-
 }

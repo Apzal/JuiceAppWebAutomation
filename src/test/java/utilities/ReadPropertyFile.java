@@ -10,19 +10,21 @@ import java.util.Properties;
 public class ReadPropertyFile {
     Properties properties;
     Logger logger = LogManager.getLogger(ReadPropertyFile.class);
-    public void loadProperty(){
+
+    public ReadPropertyFile() {
         properties = new Properties();
-        String path = System.getProperty("user.dir")+"\\src\\test\\resources\\";
-        try (FileInputStream inputStream = new FileInputStream(path+"config.properties")) {
+        String path = System.getProperty("user.dir") + "\\src\\test\\resources\\";
+        try (FileInputStream inputStream = new FileInputStream(path + "config.properties")) {
             properties.load(inputStream);
 
         } catch (IOException e) {
             logger.error(e.getMessage());
         }
     }
-    public String readProperty(String propertyName){
-        if(properties==null)
-            loadProperty();
+
+    public String readProperty(String propertyName) {
+        if (properties == null)
+            new ReadPropertyFile();
         return properties.getProperty(propertyName);
     }
 }

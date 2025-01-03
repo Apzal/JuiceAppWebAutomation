@@ -1,7 +1,7 @@
 package pages;
 
-import base.web.WebBasePage;
-import base.web.WebDriverContext;
+import base.WebBasePage;
+import base.WebDriverContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;

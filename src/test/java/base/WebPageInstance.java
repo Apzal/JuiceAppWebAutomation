@@ -1,4 +1,4 @@
-package base.web;
+package base;
 
 import java.lang.reflect.Constructor;
 

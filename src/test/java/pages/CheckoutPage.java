@@ -1,7 +1,7 @@
 package pages;
 
-import base.web.WebBasePage;
-import base.web.WebDriverContext;
+import base.WebBasePage;
+import base.WebDriverContext;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 

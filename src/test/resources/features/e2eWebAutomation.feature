@@ -1,3 +1,4 @@
+@web
 Feature: E2E Web Automation Tasks for OWASP Juice Shop
 
   Scenario: Task1-Verify Home Page displays all Items when max item per page is set as max value

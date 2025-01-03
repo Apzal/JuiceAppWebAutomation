@@ -1,9 +1,9 @@
 package steps;
 
-import base.web.WebBasePage;
+import base.WebBasePage;
 import base.DataContext;
-import base.web.WebDriverContext;
-import base.web.WebPageInstance;
+import base.WebDriverContext;
+import base.WebPageInstance;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
