@@ -203,4 +203,10 @@ public class WebBasePage extends WebPageInstance {
         Select expiryMonth = new Select(getElement(locator));
         expiryMonth.selectByIndex(index);
     }
+
+    public void clickElementViaJS(By locator, int pauseInSeconds){
+        pause(pauseInSeconds);
+        JavascriptExecutor jse = (JavascriptExecutor) this.webDriverContext.driver;
+        jse.executeScript("arguments[0].click();", getElement(locator));
+    }
 }

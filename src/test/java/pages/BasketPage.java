@@ -17,6 +17,7 @@ public class BasketPage extends WebBasePage {
 
 
     public double getPrice(){
+        waitForPageLoad();
         String regex = "\\d+\\.\\d+";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(getText(price));
@@ -28,9 +29,6 @@ public class BasketPage extends WebBasePage {
     }
 
     public void deleteProduct(String product){
-        waitForMinimumCountOfElements(By.xpath("//*[contains(text(),'"+product+"')]/..//button"),
-                3)
-                .getLast().click();
-        waitForPageLoad();
+        clickElementViaJS(By.xpath("(//*[contains(text(),'Apple')]/..//button)[3]"),3);
     }
 }

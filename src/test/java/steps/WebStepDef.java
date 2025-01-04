@@ -221,7 +221,7 @@ public class WebStepDef {
     public void iAddANewCardDetails() {
         webBasePage.clickElementContainsText("Add a credit or debit card");
         String name = dataContext.readFromDictionary("name").toString();
-        checkoutPage.fillCardDetails(name,generator.generateRandomNumber(16),0,0);
+        checkoutPage.fillCardDetails(name,generator.generateRandomCardNumber(),0,0);
         checkoutPage.selectCard(name);
         webBasePage.clickElementContainsText("Continue");
     }

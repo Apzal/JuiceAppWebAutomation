@@ -58,7 +58,8 @@ public class RandomGenerator {
         return names[random.nextInt(names.length)];
     }
 
-    public String generateRandomNumber(int count){
-        return RandomStringUtils.randomNumeric(count);
+    public String generateRandomCardNumber(){
+        return RandomStringUtils.randomNumeric(1).replace("0", "5")
+                +RandomStringUtils.randomNumeric(15);
     }
 }
