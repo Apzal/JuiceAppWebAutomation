@@ -1901,3 +1901,1050 @@ Session ID: 58680bfbcdf428f0b66952d6938b0cfc
 [INFO ] 2025-01-03 18:57:39.195 [TestNG-PoolService-4] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Fail
 [INFO ] 2025-01-03 18:57:39.207 [main] Hooks - Test Execution Finished
 [INFO ] 2025-01-03 18:57:39.207 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:04:45.853 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:04:46.192 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-04 07:04:56.880 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:04:57.474 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:04:58.216 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:04:58.216 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:04:58.248 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:04:58.965 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:04:58.966 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:04:59.119 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: emailControl]
+[INFO ] 2025-01-04 07:04:59.966 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:05:00.729 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:05:01.556 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:05:02.244 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:05:02.264 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:05:03.017 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:05:03.055 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:05:03.882 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: registerButton]
+[INFO ] 2025-01-04 07:05:04.644 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:05:05.228 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:05:05.907 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: email]
+[INFO ] 2025-01-04 07:05:06.769 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: password]
+[INFO ] 2025-01-04 07:05:07.563 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: loginButton]
+[INFO ] 2025-01-04 07:05:08.275 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:05:08.847 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:05:09.606 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:05:10.717 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-04 07:05:11.281 [TestNG-PoolService-1] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-04 07:05:11.307 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:05:11.921 [TestNG-PoolService-1] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-04 07:05:11.954 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:05:12.700 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:05:13.816 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-04 07:05:14.390 [TestNG-PoolService-1] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-04 07:05:14.417 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:05:14.985 [TestNG-PoolService-1] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-04 07:05:15.005 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:05:15.653 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:05:16.746 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-04 07:05:17.318 [TestNG-PoolService-1] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-04 07:05:17.337 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:05:17.918 [TestNG-PoolService-1] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-04 07:05:17.954 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:05:19.666 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-ijj-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-8" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78d8fbd2af0d95cbdc1ad735d87c5ed0, clickElement {id=f.B8E97E5C4034F9E63B7AA1AEC935903B.d.95DE7117221778D0ECEE90F207E80915.e.159}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56930}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56930/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: 78d8fbd2af0d95cbdc1ad735d87c5ed0
+[INFO ] 2025-01-04 07:05:21.704 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:05:22.451 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:05:23.555 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-04 07:05:24.138 [TestNG-PoolService-1] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-04 07:05:24.166 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:05:24.745 [TestNG-PoolService-1] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-04 07:05:24.782 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:05:25.561 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:05:26.678 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-04 07:05:27.251 [TestNG-PoolService-1] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-04 07:05:27.276 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:05:27.855 [TestNG-PoolService-1] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-04 07:05:28.512 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:05:29.273 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:05:29.303 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:05:30.006 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:05:30.085 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:05:30.695 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78d8fbd2af0d95cbdc1ad735d87c5ed0, executeScript {script=arguments[0].style.border='0px solid red', args=[{element-6066-11e4-a52e-4f735466cecf=f.B8E97E5C4034F9E63B7AA1AEC935903B.d.95DE7117221778D0ECEE90F207E80915.e.190}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56930}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56930/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78d8fbd2af0d95cbdc1ad735d87c5ed0
+[INFO ] 2025-01-04 07:05:32.737 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:05:33.394 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:05:33.410 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:05:34.133 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:05:34.170 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: price]
+[INFO ] 2025-01-04 07:05:34.752 [TestNG-PoolService-1] WebStepDef - Current Total After increasing Apple Juice,total:20.83
+[INFO ] 2025-01-04 07:05:34.787 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-04 07:05:35.377 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (78d8fbd2af0d95cbdc1ad735d87c5ed0)] -> id: price]
+[INFO ] 2025-01-04 07:05:36.634 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Fail
+[INFO ] 2025-01-04 07:05:36.658 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:05:36.659 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:06:32.967 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:06:33.194 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-04 07:06:41.601 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:06:42.208 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:06:42.928 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:06:42.929 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:06:42.956 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:06:43.710 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:06:43.710 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:06:43.881 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: emailControl]
+[INFO ] 2025-01-04 07:06:44.732 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:06:45.528 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:06:46.260 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:06:47.030 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:06:47.072 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:06:47.854 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:06:47.889 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:06:48.585 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: registerButton]
+[INFO ] 2025-01-04 07:06:49.303 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:06:50.607 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:06:51.279 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: email]
+[INFO ] 2025-01-04 07:06:52.086 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: password]
+[INFO ] 2025-01-04 07:06:52.937 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: loginButton]
+[INFO ] 2025-01-04 07:06:53.696 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:06:54.821 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:06:55.538 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:06:56.640 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-04 07:06:57.235 [TestNG-PoolService-1] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-04 07:06:57.275 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:06:57.867 [TestNG-PoolService-1] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-04 07:06:57.898 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:06:58.575 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:06:59.696 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-04 07:07:00.276 [TestNG-PoolService-1] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-04 07:07:00.305 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:07:00.887 [TestNG-PoolService-1] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-04 07:07:00.923 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:07:01.549 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:07:02.646 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-04 07:07:03.227 [TestNG-PoolService-1] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-04 07:07:03.255 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:07:03.825 [TestNG-PoolService-1] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-04 07:07:03.857 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:07:05.570 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-cke-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-7" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b95a562e7042bec858c9929f18b821e8, clickElement {id=f.AB055488C66E9A346360F6775FDED05D.d.630648E08486A5027F4E050C76D78815.e.158}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57063/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: b95a562e7042bec858c9929f18b821e8
+[INFO ] 2025-01-04 07:07:07.592 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:07:08.347 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:07:09.467 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-04 07:07:10.052 [TestNG-PoolService-1] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-04 07:07:10.075 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:07:10.661 [TestNG-PoolService-1] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-04 07:07:10.698 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:07:11.456 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:07:12.569 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-04 07:07:13.152 [TestNG-PoolService-1] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-04 07:07:13.176 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:07:13.752 [TestNG-PoolService-1] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-04 07:07:14.408 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:07:15.170 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:07:15.198 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:07:15.931 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:07:16.012 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:07:16.780 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:07:16.810 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:07:17.478 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b95a562e7042bec858c9929f18b821e8, clickElement {id=f.AB055488C66E9A346360F6775FDED05D.d.630648E08486A5027F4E050C76D78815.e.195}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57063/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: b95a562e7042bec858c9929f18b821e8
+[INFO ] 2025-01-04 07:07:19.519 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:07:20.246 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:07:20.307 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: price]
+[INFO ] 2025-01-04 07:07:20.944 [TestNG-PoolService-1] WebStepDef - Current Total After increasing Apple Juice,total:24.810000000000002
+[INFO ] 2025-01-04 07:07:20.980 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-04 07:07:21.605 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: price]
+[INFO ] 2025-01-04 07:07:22.175 [TestNG-PoolService-1] WebStepDef - Current Total After deleting a product,total:14.86
+[INFO ] 2025-01-04 07:07:22.195 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Checkout')]]
+[INFO ] 2025-01-04 07:07:22.986 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Checkout')]
+[INFO ] 2025-01-04 07:07:23.024 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //button[@aria-label='Add a new address']]
+[INFO ] 2025-01-04 07:07:23.808 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //button[@aria-label='Add a new address']
+[INFO ] 2025-01-04 07:07:23.842 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //input[@placeholder='Please provide a country.']]
+[INFO ] 2025-01-04 07:07:24.604 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //input[@placeholder='Please provide a name.']]
+[INFO ] 2025-01-04 07:07:25.385 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //input[@placeholder='Please provide a mobile number.']]
+[INFO ] 2025-01-04 07:07:26.127 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //input[@placeholder='Please provide a ZIP code.']]
+[INFO ] 2025-01-04 07:07:26.895 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //textarea[@placeholder='Please provide an address.']]
+[INFO ] 2025-01-04 07:07:27.695 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //input[@placeholder='Please provide a city.']]
+[INFO ] 2025-01-04 07:07:28.449 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //input[@placeholder='Please provide a state.']]
+[INFO ] 2025-01-04 07:07:29.218 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: submitButton]
+[INFO ] 2025-01-04 07:07:29.911 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:07:30.473 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:07:31.228 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:07:31.267 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:07:32.020 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:07:32.596 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'One Day Delivery')]/..//input/..]
+[INFO ] 2025-01-04 07:07:33.345 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'One Day Delivery')]/..//input/..
+[INFO ] 2025-01-04 07:07:33.377 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:07:34.152 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:07:34.179 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Wallet Balance')]/following-sibling::span]
+[INFO ] 2025-01-04 07:07:34.803 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Add a credit or debit card')]]
+[INFO ] 2025-01-04 07:07:35.539 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Add a credit or debit card')]
+[INFO ] 2025-01-04 07:07:35.561 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: (//*[@role='region']//input)[1]]
+[INFO ] 2025-01-04 07:07:36.263 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: (//*[@role='region']//input)[2]]
+[INFO ] 2025-01-04 07:07:36.998 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Expiry Month')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:07:37.778 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Expiry Year')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:07:38.537 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> id: submitButton]
+[INFO ] 2025-01-04 07:07:39.262 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:07:39.832 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'has been saved for your convenience.')]]
+[INFO ] 2025-01-04 07:07:40.410 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:07:41.133 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:07:41.161 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:07:41.968 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:07:42.001 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Place your order and pay')]]
+[INFO ] 2025-01-04 07:07:42.699 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Place your order and pay')]
+[INFO ] 2025-01-04 07:07:43.264 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (b95a562e7042bec858c9929f18b821e8)] -> xpath: //*[contains(text(),'Thank you for your purchase!')]]
+[INFO ] 2025-01-04 07:07:43.857 [TestNG-PoolService-1] WebStepDef - Order id:5fae-50c0873d329a2dc1
+[INFO ] 2025-01-04 07:07:44.478 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Pass
+[INFO ] 2025-01-04 07:07:44.494 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:07:44.496 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:07:51.502 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:07:51.772 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-04 07:08:00.537 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:08:01.126 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:08:01.880 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:08:01.880 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:08:01.914 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:08:02.669 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:08:02.669 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:08:02.809 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: emailControl]
+[INFO ] 2025-01-04 07:08:03.643 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:08:04.445 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:08:05.108 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:08:05.810 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:08:05.840 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:08:06.586 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:08:06.625 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:08:07.342 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: registerButton]
+[INFO ] 2025-01-04 07:08:08.098 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:08:08.682 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:08:09.316 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: email]
+[INFO ] 2025-01-04 07:08:10.181 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: password]
+[INFO ] 2025-01-04 07:08:10.947 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: loginButton]
+[INFO ] 2025-01-04 07:08:11.573 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:08:12.120 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:08:12.778 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:08:13.856 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-04 07:08:14.426 [TestNG-PoolService-1] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-04 07:08:14.461 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:08:15.071 [TestNG-PoolService-1] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-04 07:08:15.109 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:08:15.874 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:08:16.979 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-04 07:08:17.555 [TestNG-PoolService-1] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-04 07:08:17.580 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:08:18.145 [TestNG-PoolService-1] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-04 07:08:18.177 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:08:18.838 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:08:19.929 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-04 07:08:20.503 [TestNG-PoolService-1] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-04 07:08:20.530 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:08:21.100 [TestNG-PoolService-1] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-04 07:08:21.133 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:08:22.841 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-yba-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-7" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [197a12475a7b3f5f201c12e1d34b4f81, clickElement {id=f.6D70E4F2F70F63162C22234CA1CE3EDA.d.6835A00EF852830C41C93E2434078AA5.e.162}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57173/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: 197a12475a7b3f5f201c12e1d34b4f81
+[INFO ] 2025-01-04 07:08:24.862 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:08:25.645 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:08:26.795 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-04 07:08:27.378 [TestNG-PoolService-1] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-04 07:08:27.407 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:08:27.987 [TestNG-PoolService-1] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-04 07:08:28.024 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:08:28.758 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:08:29.885 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-04 07:08:30.464 [TestNG-PoolService-1] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-04 07:08:30.492 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:08:31.077 [TestNG-PoolService-1] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-04 07:08:31.736 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:32.450 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:08:32.480 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:33.163 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [197a12475a7b3f5f201c12e1d34b4f81, clickElement {id=f.6D70E4F2F70F63162C22234CA1CE3EDA.d.6835A00EF852830C41C93E2434078AA5.e.189}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57173/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: 197a12475a7b3f5f201c12e1d34b4f81
+[INFO ] 2025-01-04 07:08:35.204 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:35.931 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:08:35.958 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:36.648 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [197a12475a7b3f5f201c12e1d34b4f81, clickElement {id=f.6D70E4F2F70F63162C22234CA1CE3EDA.d.6835A00EF852830C41C93E2434078AA5.e.195}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57173/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: 197a12475a7b3f5f201c12e1d34b4f81
+[INFO ] 2025-01-04 07:08:38.690 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:39.386 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:08:39.403 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:40.044 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [197a12475a7b3f5f201c12e1d34b4f81, clickElement {id=f.6D70E4F2F70F63162C22234CA1CE3EDA.d.6835A00EF852830C41C93E2434078AA5.e.203}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57173}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57173/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: 197a12475a7b3f5f201c12e1d34b4f81
+[INFO ] 2025-01-04 07:08:42.086 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:08:42.819 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:08:42.878 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: price]
+[INFO ] 2025-01-04 07:08:43.517 [TestNG-PoolService-1] WebStepDef - Current Total After increasing Apple Juice,total:24.810000000000002
+[INFO ] 2025-01-04 07:08:43.554 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-04 07:08:44.180 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: price]
+[INFO ] 2025-01-04 07:08:44.761 [TestNG-PoolService-1] WebStepDef - Current Total After deleting a product,total:14.86
+[INFO ] 2025-01-04 07:08:44.800 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Checkout')]]
+[INFO ] 2025-01-04 07:08:45.571 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Checkout')]
+[INFO ] 2025-01-04 07:08:45.612 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //button[@aria-label='Add a new address']]
+[INFO ] 2025-01-04 07:08:46.397 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //button[@aria-label='Add a new address']
+[INFO ] 2025-01-04 07:08:46.436 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //input[@placeholder='Please provide a country.']]
+[INFO ] 2025-01-04 07:08:47.240 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //input[@placeholder='Please provide a name.']]
+[INFO ] 2025-01-04 07:08:48.016 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //input[@placeholder='Please provide a mobile number.']]
+[INFO ] 2025-01-04 07:08:48.826 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //input[@placeholder='Please provide a ZIP code.']]
+[INFO ] 2025-01-04 07:08:49.601 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //textarea[@placeholder='Please provide an address.']]
+[INFO ] 2025-01-04 07:08:50.359 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //input[@placeholder='Please provide a city.']]
+[INFO ] 2025-01-04 07:08:51.135 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //input[@placeholder='Please provide a state.']]
+[INFO ] 2025-01-04 07:08:51.875 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: submitButton]
+[INFO ] 2025-01-04 07:08:52.663 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:08:53.236 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:08:53.977 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:08:54.014 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:08:54.774 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:08:55.356 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'One Day Delivery')]/..//input/..]
+[INFO ] 2025-01-04 07:08:56.103 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'One Day Delivery')]/..//input/..
+[INFO ] 2025-01-04 07:08:56.131 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:08:56.941 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:08:56.972 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Wallet Balance')]/following-sibling::span]
+[INFO ] 2025-01-04 07:08:57.598 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Add a credit or debit card')]]
+[INFO ] 2025-01-04 07:08:58.344 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Add a credit or debit card')]
+[INFO ] 2025-01-04 07:08:58.386 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: (//*[@role='region']//input)[1]]
+[INFO ] 2025-01-04 07:08:59.162 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: (//*[@role='region']//input)[2]]
+[INFO ] 2025-01-04 07:08:59.958 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Expiry Month')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:09:00.735 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Expiry Year')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:09:01.479 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> id: submitButton]
+[INFO ] 2025-01-04 07:09:02.160 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:09:02.732 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'has been saved for your convenience.')]]
+[INFO ] 2025-01-04 07:09:03.307 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:09:03.975 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eve')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:09:03.993 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:09:04.721 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:09:04.744 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Place your order and pay')]]
+[INFO ] 2025-01-04 07:09:05.428 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Place your order and pay')]
+[INFO ] 2025-01-04 07:09:05.982 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (197a12475a7b3f5f201c12e1d34b4f81)] -> xpath: //*[contains(text(),'Thank you for your purchase!')]]
+[INFO ] 2025-01-04 07:09:06.557 [TestNG-PoolService-1] WebStepDef - Order id:95e5-87f828b8125336ca
+[INFO ] 2025-01-04 07:09:07.200 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Pass
+[INFO ] 2025-01-04 07:09:07.216 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:09:07.217 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:09:37.030 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:09:37.343 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task1-Verify Home Page displays all Items when max item per page is set as max value
+[INFO ] 2025-01-04 07:09:37.343 [TestNG-PoolService-4] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-04 07:09:37.343 [TestNG-PoolService-3] Hooks - Execution started for scenario:Task3-Verify user registration is successful after form validation
+[INFO ] 2025-01-04 07:09:37.343 [TestNG-PoolService-2] Hooks - Execution started for scenario:Task2-Verify Product Image and Review Present
+[INFO ] 2025-01-04 07:09:45.458 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:09:45.458 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:09:46.161 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:09:46.182 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:09:46.208 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:09:46.797 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:09:47.080 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:09:47.081 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:09:47.082 [TestNG-PoolService-3] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:09:47.082 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:09:47.082 [TestNG-PoolService-4] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:09:47.232 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:09:47.240 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:09:47.457 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:09:47.458 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:09:47.496 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:09:47.761 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:09:47.928 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:09:47.928 [TestNG-PoolService-3] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:09:47.935 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:09:47.936 [TestNG-PoolService-4] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:09:48.052 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: emailControl]
+[INFO ] 2025-01-04 07:09:48.104 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: emailControl]
+[INFO ] 2025-01-04 07:09:48.202 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:09:48.202 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:09:48.224 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-04 07:09:48.514 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:09:48.514 [TestNG-PoolService-2] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:09:48.556 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:09:48.844 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:09:48.861 [TestNG-PoolService-1] WebBasePage - Scrolled into view for element:[[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-04 07:09:48.909 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //*[@role='combobox' and @aria-label='Items per page:']]
+[INFO ] 2025-01-04 07:09:48.971 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:09:49.191 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:09:49.192 [TestNG-PoolService-2] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:09:49.214 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //*[contains(text(),'Apple Juice (1000ml)')]]
+[INFO ] 2025-01-04 07:09:49.542 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:09:49.628 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='combobox' and @aria-label='Items per page:']
+[INFO ] 2025-01-04 07:09:49.628 [TestNG-PoolService-1] WebBasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //*[@aria-label='Items per page:']//mat-option[@role='option']
+[INFO ] 2025-01-04 07:09:49.692 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:09:49.894 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-04 07:09:49.943 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice (1000ml)')]
+[INFO ] 2025-01-04 07:09:49.972 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //app-product-details//*[contains(text(),'Apple Juice (1000ml)')]]
+[INFO ] 2025-01-04 07:09:50.178 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:09:50.405 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:09:50.460 [TestNG-PoolService-1] WebBasePage - Scrolled into view for element:[[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-04 07:09:50.461 [TestNG-PoolService-1] WebBasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //mat-grid-tile
+[INFO ] 2025-01-04 07:09:50.517 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (81b6b557baefa11ef8022b93db42b172)] -> class name: mat-paginator-range-label]
+[INFO ] 2025-01-04 07:09:50.566 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //app-product-details//img[@alt='Apple Juice (1000ml)' and contains(@src,'.jpg')]]
+[INFO ] 2025-01-04 07:09:50.838 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:09:51.111 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:09:51.205 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:09:51.327 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //*[@aria-label='Expand for Reviews']//span[contains(text(),'(')]]
+[INFO ] 2025-01-04 07:09:51.529 [TestNG-PoolService-3] RegistrationPage - Left all fields blank
+[INFO ] 2025-01-04 07:09:51.568 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //input[@id='emailControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-04 07:09:51.693 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task1-Verify Home Page displays all Items when max item per page is set as max value,Status:Pass
+[INFO ] 2025-01-04 07:09:51.910 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //*[@aria-label='Expand for Reviews']]
+[INFO ] 2025-01-04 07:09:51.932 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:09:51.954 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:09:52.132 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //input[@id='passwordControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-04 07:09:52.622 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Expand for Reviews']
+[INFO ] 2025-01-04 07:09:52.666 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: registerButton]
+[INFO ] 2025-01-04 07:09:52.703 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //input[@id='repeatPasswordControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-04 07:09:53.298 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //input[@id='securityAnswerControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-04 07:09:53.387 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:09:53.909 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: emailControl]
+[INFO ] 2025-01-04 07:09:54.623 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:09:55.038 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:09:55.326 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:09:55.680 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: email]
+[INFO ] 2025-01-04 07:09:55.694 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //button//span[contains(text(),'Close')]]
+[INFO ] 2025-01-04 07:09:56.081 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:09:56.271 [TestNG-PoolService-2] WebBasePage - Scrolled into view for element:[[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //button//span[contains(text(),'Close')]]
+[INFO ] 2025-01-04 07:09:56.296 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (edde73f774dd1a698488d089f1b311e3)] -> xpath: //button//span[contains(text(),'Close')]]
+[INFO ] 2025-01-04 07:09:56.455 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: password]
+[INFO ] 2025-01-04 07:09:56.822 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:09:56.864 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:09:56.950 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //button//span[contains(text(),'Close')]
+[INFO ] 2025-01-04 07:09:56.950 [TestNG-PoolService-2] WebBasePage - Waited for Element to Disappear, Locator Used : By.xpath: //button//span[contains(text(),'Close')]
+[INFO ] 2025-01-04 07:09:57.207 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: loginButton]
+[INFO ] 2025-01-04 07:09:57.639 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:09:57.654 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:09:58.002 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:09:58.311 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //*[@type='checkbox']/..]
+[INFO ] 2025-01-04 07:09:59.053 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@type='checkbox']/..
+[INFO ] 2025-01-04 07:09:59.053 [TestNG-PoolService-3] WebBasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //*[@role='img' and text()='done']
+[INFO ] 2025-01-04 07:09:59.095 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:09:59.125 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: registerButton]
+[INFO ] 2025-01-04 07:09:59.669 [TestNG-PoolService-2] Hooks - Execution completed for scenario:Task2-Verify Product Image and Review Present,Status:Pass
+[INFO ] 2025-01-04 07:09:59.822 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:09:59.900 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:10:00.479 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-04 07:10:01.059 [TestNG-PoolService-4] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-04 07:10:01.084 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:10:01.449 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:10:01.655 [TestNG-PoolService-4] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-04 07:10:01.688 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:10:02.064 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: email]
+[INFO ] 2025-01-04 07:10:02.431 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:10:02.880 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: password]
+[INFO ] 2025-01-04 07:10:03.524 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-04 07:10:03.647 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (0245ad9203b244b59bc1b59da88c7b3f)] -> id: loginButton]
+[INFO ] 2025-01-04 07:10:04.092 [TestNG-PoolService-4] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-04 07:10:04.114 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:10:04.338 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:10:04.663 [TestNG-PoolService-4] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-04 07:10:04.750 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:10:05.492 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:10:06.509 [TestNG-PoolService-3] Hooks - Execution completed for scenario:Task3-Verify user registration is successful after form validation,Status:Pass
+[INFO ] 2025-01-04 07:10:06.621 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-04 07:10:07.167 [TestNG-PoolService-4] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-04 07:10:07.181 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:10:07.754 [TestNG-PoolService-4] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-04 07:10:07.792 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:10:09.548 [TestNG-PoolService-4] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-rqa-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-7" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aab565455123cafa99527dbecf16451c, clickElement {id=f.972F1229970B17CA3BB981653AEB2C1C.d.A869A52484186F7ED44613DEF0154F47.e.157}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57330/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: aab565455123cafa99527dbecf16451c
+[INFO ] 2025-01-04 07:10:11.579 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:10:12.314 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:10:13.408 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-04 07:10:13.981 [TestNG-PoolService-4] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-04 07:10:14.007 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:10:14.590 [TestNG-PoolService-4] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-04 07:10:14.626 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:10:15.359 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:10:16.453 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-04 07:10:17.031 [TestNG-PoolService-4] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-04 07:10:17.056 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:10:17.642 [TestNG-PoolService-4] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-04 07:10:18.282 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:19.012 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:10:19.035 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:19.756 [TestNG-PoolService-4] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aab565455123cafa99527dbecf16451c, clickElement {id=f.972F1229970B17CA3BB981653AEB2C1C.d.A869A52484186F7ED44613DEF0154F47.e.182}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57330/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: aab565455123cafa99527dbecf16451c
+[INFO ] 2025-01-04 07:10:21.794 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:22.536 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:10:22.562 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:23.250 [TestNG-PoolService-4] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aab565455123cafa99527dbecf16451c, clickElement {id=f.972F1229970B17CA3BB981653AEB2C1C.d.A869A52484186F7ED44613DEF0154F47.e.189}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57330/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: aab565455123cafa99527dbecf16451c
+[INFO ] 2025-01-04 07:10:25.292 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:26.022 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:10:26.049 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:26.756 [TestNG-PoolService-4] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aab565455123cafa99527dbecf16451c, clickElement {id=f.972F1229970B17CA3BB981653AEB2C1C.d.A869A52484186F7ED44613DEF0154F47.e.197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57330}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57330/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: aab565455123cafa99527dbecf16451c
+[INFO ] 2025-01-04 07:10:28.794 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:10:29.545 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:10:29.598 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: price]
+[INFO ] 2025-01-04 07:10:30.251 [TestNG-PoolService-4] WebStepDef - Current Total After increasing Apple Juice,total:24.810000000000002
+[INFO ] 2025-01-04 07:10:30.286 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-04 07:10:30.910 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: price]
+[INFO ] 2025-01-04 07:10:31.506 [TestNG-PoolService-4] WebStepDef - Current Total After deleting a product,total:14.86
+[INFO ] 2025-01-04 07:10:31.546 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Checkout')]]
+[INFO ] 2025-01-04 07:10:32.270 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Checkout')]
+[INFO ] 2025-01-04 07:10:32.301 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //button[@aria-label='Add a new address']]
+[INFO ] 2025-01-04 07:10:33.046 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //button[@aria-label='Add a new address']
+[INFO ] 2025-01-04 07:10:33.072 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //input[@placeholder='Please provide a country.']]
+[INFO ] 2025-01-04 07:10:33.915 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //input[@placeholder='Please provide a name.']]
+[INFO ] 2025-01-04 07:10:34.707 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //input[@placeholder='Please provide a mobile number.']]
+[INFO ] 2025-01-04 07:10:35.511 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //input[@placeholder='Please provide a ZIP code.']]
+[INFO ] 2025-01-04 07:10:36.298 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //textarea[@placeholder='Please provide an address.']]
+[INFO ] 2025-01-04 07:10:37.014 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //input[@placeholder='Please provide a city.']]
+[INFO ] 2025-01-04 07:10:37.819 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //input[@placeholder='Please provide a state.']]
+[INFO ] 2025-01-04 07:10:38.575 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: submitButton]
+[INFO ] 2025-01-04 07:10:39.357 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:10:39.929 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Alice')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:10:40.678 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Alice')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:10:40.717 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:10:41.447 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:10:42.018 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'One Day Delivery')]/..//input/..]
+[INFO ] 2025-01-04 07:10:42.735 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'One Day Delivery')]/..//input/..
+[INFO ] 2025-01-04 07:10:42.756 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:10:43.619 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:10:43.661 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Wallet Balance')]/following-sibling::span]
+[INFO ] 2025-01-04 07:10:44.267 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Add a credit or debit card')]]
+[INFO ] 2025-01-04 07:10:45.013 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Add a credit or debit card')]
+[INFO ] 2025-01-04 07:10:45.050 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: (//*[@role='region']//input)[1]]
+[INFO ] 2025-01-04 07:10:45.844 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: (//*[@role='region']//input)[2]]
+[INFO ] 2025-01-04 07:10:46.656 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Expiry Month')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:10:47.549 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Expiry Year')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:10:48.339 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> id: submitButton]
+[INFO ] 2025-01-04 07:10:49.067 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:11:01.442 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'has been saved for your convenience.')]]
+[INFO ] 2025-01-04 07:11:02.034 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Alice')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:11:02.732 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Alice')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:11:02.748 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:11:03.548 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:11:03.585 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Place your order and pay')]]
+[INFO ] 2025-01-04 07:11:04.335 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Place your order and pay')]
+[INFO ] 2025-01-04 07:11:04.911 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (aab565455123cafa99527dbecf16451c)] -> xpath: //*[contains(text(),'Thank you for your purchase!')]]
+[INFO ] 2025-01-04 07:11:05.530 [TestNG-PoolService-4] WebStepDef - Order id:4b67-6a298d6ddac891a5
+[INFO ] 2025-01-04 07:11:06.112 [TestNG-PoolService-4] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Pass
+[INFO ] 2025-01-04 07:11:06.164 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:11:06.164 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:18:59.387 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:18:59.417 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:18:59.417 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:19:46.787 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:19:47.106 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-04 07:19:56.320 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:19:56.928 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:19:57.678 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:19:57.678 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:19:57.708 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:19:58.454 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:19:58.455 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:19:58.616 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: emailControl]
+[INFO ] 2025-01-04 07:19:59.491 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:20:00.262 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:20:00.914 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:20:01.671 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:20:01.713 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:20:02.466 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:20:02.502 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:20:03.251 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: registerButton]
+[INFO ] 2025-01-04 07:20:03.997 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:20:04.574 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:20:05.240 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: email]
+[INFO ] 2025-01-04 07:20:06.064 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: password]
+[INFO ] 2025-01-04 07:20:06.793 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: loginButton]
+[INFO ] 2025-01-04 07:20:07.412 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:20:08.648 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:20:09.422 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:20:10.535 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-04 07:20:11.132 [TestNG-PoolService-1] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-04 07:20:11.166 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:20:11.778 [TestNG-PoolService-1] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-04 07:20:11.812 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:20:12.565 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:20:13.675 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-04 07:20:14.252 [TestNG-PoolService-1] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-04 07:20:14.270 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:20:14.842 [TestNG-PoolService-1] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-04 07:20:14.876 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:20:15.507 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:20:16.592 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-04 07:20:17.177 [TestNG-PoolService-1] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-04 07:20:17.202 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:20:17.789 [TestNG-PoolService-1] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-04 07:20:17.828 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:20:19.619 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-vvf-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-7" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fef4741bd3d35be38e4d1a3af1a13ade, clickElement {id=f.0D578E35299A82A58832C40BD77D78C0.d.59802245EF4FACF192774BAFC1464258.e.162}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58045/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: fef4741bd3d35be38e4d1a3af1a13ade
+[INFO ] 2025-01-04 07:20:21.652 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:20:22.298 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:20:23.405 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-04 07:20:23.989 [TestNG-PoolService-1] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-04 07:20:24.016 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:20:24.593 [TestNG-PoolService-1] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-04 07:20:24.627 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:20:25.375 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:20:26.485 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-04 07:20:27.063 [TestNG-PoolService-1] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-04 07:20:27.089 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:20:27.662 [TestNG-PoolService-1] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-04 07:20:28.317 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:20:29.000 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:20:29.019 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:20:29.729 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:20:29.757 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:20:30.317 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fef4741bd3d35be38e4d1a3af1a13ade, executeScript {script=arguments[0].style.border='0px solid red', args=[{element-6066-11e4-a52e-4f735466cecf=f.0D578E35299A82A58832C40BD77D78C0.d.59802245EF4FACF192774BAFC1464258.e.188}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58045/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fef4741bd3d35be38e4d1a3af1a13ade
+[INFO ] 2025-01-04 07:20:32.361 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:20:33.056 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:20:33.078 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:20:33.752 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fef4741bd3d35be38e4d1a3af1a13ade, clickElement {id=f.0D578E35299A82A58832C40BD77D78C0.d.59802245EF4FACF192774BAFC1464258.e.197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58045}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58045/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: fef4741bd3d35be38e4d1a3af1a13ade
+[INFO ] 2025-01-04 07:20:35.798 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:20:36.495 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:20:36.543 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> id: price]
+[INFO ] 2025-01-04 07:20:37.127 [TestNG-PoolService-1] WebStepDef - Current Total After increasing Apple Juice,total:22.82
+[INFO ] 2025-01-04 07:20:37.155 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (fef4741bd3d35be38e4d1a3af1a13ade)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-04 07:20:37.848 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Fail
+[INFO ] 2025-01-04 07:20:37.880 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:20:37.881 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-04 07:21:16.990 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-04 07:21:17.475 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-04 07:21:28.038 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-04 07:21:28.637 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-04 07:21:29.298 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-04 07:21:29.299 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-04 07:21:29.324 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> link text: Me want it!]
+[INFO ] 2025-01-04 07:21:30.059 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-04 07:21:30.060 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-04 07:21:30.236 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: emailControl]
+[INFO ] 2025-01-04 07:21:31.146 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: passwordControl]
+[INFO ] 2025-01-04 07:21:31.902 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-04 07:21:32.705 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-04 07:21:33.507 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-04 07:21:33.554 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-04 07:21:34.318 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-04 07:21:34.348 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: securityAnswerControl]
+[INFO ] 2025-01-04 07:21:35.152 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: registerButton]
+[INFO ] 2025-01-04 07:21:35.903 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-04 07:21:36.541 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-04 07:21:37.218 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: email]
+[INFO ] 2025-01-04 07:21:37.979 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: password]
+[INFO ] 2025-01-04 07:21:38.656 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: loginButton]
+[INFO ] 2025-01-04 07:21:39.373 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-04 07:21:40.505 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:21:41.255 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:21:42.395 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-04 07:21:42.982 [TestNG-PoolService-1] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-04 07:21:43.018 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:21:43.625 [TestNG-PoolService-1] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-04 07:21:43.660 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:21:44.362 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:21:45.444 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-04 07:21:46.011 [TestNG-PoolService-1] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-04 07:21:46.036 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:21:46.619 [TestNG-PoolService-1] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-04 07:21:46.649 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:21:47.377 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:21:48.512 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-04 07:21:49.103 [TestNG-PoolService-1] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-04 07:21:49.127 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:21:49.706 [TestNG-PoolService-1] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-04 07:21:49.739 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:21:51.501 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-osh-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-7" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7bd0ab470e20905f93ca1ae81ff6690f, clickElement {id=f.FE6CE3B08615BE55455A0758988782DE.d.53DF5839E6150DD8B7E45B2D6693ECBB.e.162}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58169/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: 7bd0ab470e20905f93ca1ae81ff6690f
+[INFO ] 2025-01-04 07:21:53.540 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:21:54.306 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:21:55.421 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-04 07:21:56.008 [TestNG-PoolService-1] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-04 07:21:56.038 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:21:56.621 [TestNG-PoolService-1] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-04 07:21:56.657 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-04 07:21:57.423 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-04 07:21:58.529 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-04 07:21:59.104 [TestNG-PoolService-1] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-04 07:21:59.125 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-04 07:21:59.702 [TestNG-PoolService-1] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-04 07:22:00.313 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:22:01.070 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:22:01.097 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:22:01.800 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:22:01.848 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:22:02.476 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7bd0ab470e20905f93ca1ae81ff6690f, clickElement {id=f.FE6CE3B08615BE55455A0758988782DE.d.53DF5839E6150DD8B7E45B2D6693ECBB.e.193}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58169/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: 7bd0ab470e20905f93ca1ae81ff6690f
+[INFO ] 2025-01-04 07:22:04.506 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:22:05.236 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:22:05.259 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:22:05.918 [TestNG-PoolService-1] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7bd0ab470e20905f93ca1ae81ff6690f, clickElement {id=f.FE6CE3B08615BE55455A0758988782DE.d.53DF5839E6150DD8B7E45B2D6693ECBB.e.197}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58169}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58169/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+Session ID: 7bd0ab470e20905f93ca1ae81ff6690f
+[INFO ] 2025-01-04 07:22:07.944 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-04 07:22:08.698 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-04 07:22:08.755 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: price]
+[INFO ] 2025-01-04 07:22:09.393 [TestNG-PoolService-1] WebStepDef - Current Total After increasing Apple Juice,total:24.810000000000002
+[INFO ] 2025-01-04 07:22:12.436 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-04 07:22:13.044 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: price]
+[INFO ] 2025-01-04 07:22:13.635 [TestNG-PoolService-1] WebStepDef - Current Total After deleting a product,total:14.86
+[INFO ] 2025-01-04 07:22:13.669 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Checkout')]]
+[INFO ] 2025-01-04 07:22:14.461 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Checkout')]
+[INFO ] 2025-01-04 07:22:14.499 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //button[@aria-label='Add a new address']]
+[INFO ] 2025-01-04 07:22:15.319 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //button[@aria-label='Add a new address']
+[INFO ] 2025-01-04 07:22:15.348 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //input[@placeholder='Please provide a country.']]
+[INFO ] 2025-01-04 07:22:16.118 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //input[@placeholder='Please provide a name.']]
+[INFO ] 2025-01-04 07:22:16.900 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //input[@placeholder='Please provide a mobile number.']]
+[INFO ] 2025-01-04 07:22:17.822 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //input[@placeholder='Please provide a ZIP code.']]
+[INFO ] 2025-01-04 07:22:18.609 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //textarea[@placeholder='Please provide an address.']]
+[INFO ] 2025-01-04 07:22:19.405 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //input[@placeholder='Please provide a city.']]
+[INFO ] 2025-01-04 07:22:20.219 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //input[@placeholder='Please provide a state.']]
+[INFO ] 2025-01-04 07:22:20.992 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: submitButton]
+[INFO ] 2025-01-04 07:22:21.779 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:22:22.350 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Diana')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:22:23.070 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Diana')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:22:23.110 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:22:23.877 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:22:24.465 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'One Day Delivery')]/..//input/..]
+[INFO ] 2025-01-04 07:22:25.206 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'One Day Delivery')]/..//input/..
+[INFO ] 2025-01-04 07:22:25.230 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:22:26.057 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:22:26.104 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Wallet Balance')]/following-sibling::span]
+[INFO ] 2025-01-04 07:22:26.716 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Add a credit or debit card')]]
+[INFO ] 2025-01-04 07:22:27.459 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Add a credit or debit card')]
+[INFO ] 2025-01-04 07:22:27.495 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: (//*[@role='region']//input)[1]]
+[INFO ] 2025-01-04 07:22:28.207 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: (//*[@role='region']//input)[2]]
+[INFO ] 2025-01-04 07:22:29.038 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Expiry Month')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:22:29.871 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Expiry Year')]/ancestor::div/select]
+[INFO ] 2025-01-04 07:22:30.655 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> id: submitButton]
+[INFO ] 2025-01-04 07:22:31.329 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-04 07:22:31.907 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'has been saved for your convenience.')]]
+[INFO ] 2025-01-04 07:22:32.519 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Diana')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-04 07:22:33.274 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Diana')]/..//input[@type='radio']/..
+[INFO ] 2025-01-04 07:22:33.302 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-04 07:22:34.118 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-04 07:22:34.155 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Place your order and pay')]]
+[INFO ] 2025-01-04 07:22:34.913 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Place your order and pay')]
+[INFO ] 2025-01-04 07:22:35.496 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (7bd0ab470e20905f93ca1ae81ff6690f)] -> xpath: //*[contains(text(),'Thank you for your purchase!')]]
+[INFO ] 2025-01-04 07:22:36.079 [TestNG-PoolService-1] WebStepDef - Order id:ff91-ec0861949d6218bb
+[INFO ] 2025-01-04 07:22:36.762 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Pass
+[INFO ] 2025-01-04 07:22:36.778 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-04 07:22:36.779 [main] Hooks - ---------***********************************--------------
+[INFO ] 2025-01-05 22:09:23.917 [main] Hooks - ---------*************Test Execution Started**********************--------------
+[INFO ] 2025-01-05 22:09:24.175 [TestNG-PoolService-4] Hooks - Execution started for scenario:Task4-Verify the checkout flow with payment
+[INFO ] 2025-01-05 22:09:24.175 [TestNG-PoolService-3] Hooks - Execution started for scenario:Task3-Verify user registration is successful after form validation
+[INFO ] 2025-01-05 22:09:24.175 [TestNG-PoolService-1] Hooks - Execution started for scenario:Task1-Verify Home Page displays all Items when max item per page is set as max value
+[INFO ] 2025-01-05 22:09:24.175 [TestNG-PoolService-2] Hooks - Execution started for scenario:Task2-Verify Product Image and Review Present
+[INFO ] 2025-01-05 22:09:52.141 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-05 22:09:52.709 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-05 22:09:53.332 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-05 22:09:53.332 [TestNG-PoolService-3] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-05 22:09:53.360 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> link text: Me want it!]
+[INFO ] 2025-01-05 22:09:53.941 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-05 22:09:53.941 [TestNG-PoolService-3] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-05 22:09:54.007 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: emailControl]
+[INFO ] 2025-01-05 22:09:54.625 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: passwordControl]
+[INFO ] 2025-01-05 22:09:55.207 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-05 22:09:55.781 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: securityAnswerControl]
+[INFO ] 2025-01-05 22:09:56.381 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: securityAnswerControl]
+[INFO ] 2025-01-05 22:09:56.960 [TestNG-PoolService-3] RegistrationPage - Left all fields blank
+[INFO ] 2025-01-05 22:09:56.979 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //input[@id='emailControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-05 22:09:57.413 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-05 22:09:57.550 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //input[@id='passwordControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-05 22:09:57.977 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-05 22:09:58.111 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //input[@id='repeatPasswordControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-05 22:09:58.641 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-05 22:09:58.642 [TestNG-PoolService-2] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-05 22:09:58.661 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> link text: Me want it!]
+[INFO ] 2025-01-05 22:09:58.671 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //input[@id='securityAnswerControl']/ancestor::mat-form-field//mat-error]
+[INFO ] 2025-01-05 22:09:59.231 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: emailControl]
+[INFO ] 2025-01-05 22:09:59.254 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-05 22:09:59.255 [TestNG-PoolService-2] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-05 22:09:59.268 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //*[contains(text(),'Apple Juice (1000ml)')]]
+[INFO ] 2025-01-05 22:09:59.898 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: passwordControl]
+[INFO ] 2025-01-05 22:09:59.904 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice (1000ml)')]
+[INFO ] 2025-01-05 22:09:59.921 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //app-product-details//*[contains(text(),'Apple Juice (1000ml)')]]
+[INFO ] 2025-01-05 22:10:00.508 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //app-product-details//img[@alt='Apple Juice (1000ml)' and contains(@src,'.jpg')]]
+[INFO ] 2025-01-05 22:10:00.555 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-05 22:10:00.920 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-05 22:10:01.093 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //*[@aria-label='Expand for Reviews']//span[contains(text(),'(')]]
+[INFO ] 2025-01-05 22:10:01.191 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-05 22:10:01.462 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-05 22:10:01.641 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //*[@aria-label='Expand for Reviews']]
+[INFO ] 2025-01-05 22:10:01.770 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-05 22:10:01.781 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-05 22:10:02.101 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-05 22:10:02.102 [TestNG-PoolService-1] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-05 22:10:02.128 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> link text: Me want it!]
+[INFO ] 2025-01-05 22:10:02.256 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Expand for Reviews']
+[INFO ] 2025-01-05 22:10:02.391 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-05 22:10:02.404 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: securityAnswerControl]
+[INFO ] 2025-01-05 22:10:02.749 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-05 22:10:02.749 [TestNG-PoolService-1] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-05 22:10:02.772 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-05 22:10:02.996 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //*[@type='checkbox']/..]
+[INFO ] 2025-01-05 22:10:03.307 [TestNG-PoolService-1] WebBasePage - Scrolled into view for element:[[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-05 22:10:03.327 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //*[@role='combobox' and @aria-label='Items per page:']]
+[INFO ] 2025-01-05 22:10:03.581 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@type='checkbox']/..
+[INFO ] 2025-01-05 22:10:03.583 [TestNG-PoolService-3] WebBasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //*[@role='img' and text()='done']
+[INFO ] 2025-01-05 22:10:03.613 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: registerButton]
+[INFO ] 2025-01-05 22:10:03.966 [TestNG-PoolService-1] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='combobox' and @aria-label='Items per page:']
+[INFO ] 2025-01-05 22:10:03.967 [TestNG-PoolService-1] WebBasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //*[@aria-label='Items per page:']//mat-option[@role='option']
+[INFO ] 2025-01-05 22:10:04.127 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-05 22:10:04.193 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-05 22:10:04.667 [TestNG-PoolService-1] WebBasePage - Scrolled into view for element:[[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> xpath: //div[contains(text(),'Items per page')]]
+[INFO ] 2025-01-05 22:10:04.668 [TestNG-PoolService-1] WebBasePage - Retrieve Multiple Elements, Locator Used : By.xpath: //mat-grid-tile
+[INFO ] 2025-01-05 22:10:04.712 [TestNG-PoolService-1] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (c1f50628018028d5e3c96a2540aa62bd)] -> class name: mat-paginator-range-label]
+[INFO ] 2025-01-05 22:10:04.767 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-05 22:10:05.286 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //button//span[contains(text(),'Close')]]
+[INFO ] 2025-01-05 22:10:05.321 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: email]
+[INFO ] 2025-01-05 22:10:05.811 [TestNG-PoolService-2] WebBasePage - Scrolled into view for element:[[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //button//span[contains(text(),'Close')]]
+[INFO ] 2025-01-05 22:10:05.820 [TestNG-PoolService-2] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (dbe0d4db5f218960a25d18865fc34e7d)] -> xpath: //button//span[contains(text(),'Close')]]
+[INFO ] 2025-01-05 22:10:05.944 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: password]
+[INFO ] 2025-01-05 22:10:06.479 [TestNG-PoolService-2] WebBasePage - Clicked Element, Locator Used : By.xpath: //button//span[contains(text(),'Close')]
+[INFO ] 2025-01-05 22:10:06.479 [TestNG-PoolService-2] WebBasePage - Waited for Element to Disappear, Locator Used : By.xpath: //button//span[contains(text(),'Close')]
+[INFO ] 2025-01-05 22:10:06.560 [TestNG-PoolService-3] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (13291be59e4a427ae5bc23827569ef95)] -> id: loginButton]
+[INFO ] 2025-01-05 22:10:07.144 [TestNG-PoolService-1] Hooks - Execution completed for scenario:Task1-Verify Home Page displays all Items when max item per page is set as max value,Status:Pass
+[INFO ] 2025-01-05 22:10:07.144 [TestNG-PoolService-3] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-05 22:10:08.150 [TestNG-PoolService-3] Hooks - Execution completed for scenario:Task3-Verify user registration is successful after form validation,Status:Pass
+[INFO ] 2025-01-05 22:10:08.954 [TestNG-PoolService-2] Hooks - Execution completed for scenario:Task2-Verify Product Image and Review Present,Status:Pass
+[INFO ] 2025-01-05 22:10:10.791 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //span[text()='Welcome to OWASP Juice Shop!']]
+[INFO ] 2025-01-05 22:10:11.316 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //span[text()='Dismiss']]
+[INFO ] 2025-01-05 22:10:11.900 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //span[text()='Dismiss']
+[INFO ] 2025-01-05 22:10:11.900 [TestNG-PoolService-4] ProductPage - Dismissed Welcome Message Popup
+[INFO ] 2025-01-05 22:10:11.915 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> link text: Me want it!]
+[INFO ] 2025-01-05 22:10:12.501 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.linkText: Me want it!
+[INFO ] 2025-01-05 22:10:12.501 [TestNG-PoolService-4] ProductPage - Accepted Cookie Consent
+[INFO ] 2025-01-05 22:10:12.552 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: emailControl]
+[INFO ] 2025-01-05 22:10:13.201 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: passwordControl]
+[INFO ] 2025-01-05 22:10:13.846 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: repeatPasswordControl]
+[INFO ] 2025-01-05 22:10:14.463 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[@aria-label='Selection list for the security question']]
+[INFO ] 2025-01-05 22:10:15.055 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@aria-label='Selection list for the security question']
+[INFO ] 2025-01-05 22:10:15.065 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]]
+[INFO ] 2025-01-05 22:10:15.649 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[@role='listbox']//span[contains(text(),'ZIP')]
+[INFO ] 2025-01-05 22:10:15.660 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: securityAnswerControl]
+[INFO ] 2025-01-05 22:10:16.258 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: registerButton]
+[INFO ] 2025-01-05 22:10:16.863 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: registerButton
+[INFO ] 2025-01-05 22:10:17.416 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Registration completed successfully. You can now log in.')]]
+[INFO ] 2025-01-05 22:10:17.961 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: email]
+[INFO ] 2025-01-05 22:10:18.586 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: password]
+[INFO ] 2025-01-05 22:10:19.185 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: loginButton]
+[INFO ] 2025-01-05 22:10:19.751 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: loginButton
+[INFO ] 2025-01-05 22:10:21.862 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-05 22:10:22.453 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-05 22:10:24.058 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Placed Apple Juice')]]
+[INFO ] 2025-01-05 22:10:24.602 [TestNG-PoolService-4] WebStepDef - Placed Apple Juice
+[INFO ] 2025-01-05 22:10:24.614 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-05 22:10:25.160 [TestNG-PoolService-4] WebStepDef - Basket updated with count 1
+[INFO ] 2025-01-05 22:10:25.170 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-05 22:10:25.751 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Pomace')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-05 22:10:26.808 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Placed Apple Pomace')]]
+[INFO ] 2025-01-05 22:10:27.340 [TestNG-PoolService-4] WebStepDef - Placed Apple Pomace
+[INFO ] 2025-01-05 22:10:27.347 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-05 22:10:27.890 [TestNG-PoolService-4] WebStepDef - Basket updated with count 2
+[INFO ] 2025-01-05 22:10:27.901 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-05 22:10:28.492 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Banana Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-05 22:10:29.556 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Placed Banana Juice')]]
+[INFO ] 2025-01-05 22:10:30.098 [TestNG-PoolService-4] WebStepDef - Placed Banana Juice
+[INFO ] 2025-01-05 22:10:30.104 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-05 22:10:30.643 [TestNG-PoolService-4] WebStepDef - Basket updated with count 3
+[INFO ] 2025-01-05 22:10:30.657 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-05 22:10:32.249 [TestNG-PoolService-4] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket'],Exception :element click intercepted: Element <span _ngcontent-msp-c46="" translate="" style="border: 0px solid red;">...</span> is not clickable at point (759, 671). Other element would receive the click: <div id="cdk-overlay-7" class="cdk-overlay-pane" style="position: static; margin-bottom: 0px;">...</div>
+  (Session info: chrome=131.0.6778.205)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db067ff8a95445461bda205a5707dc1d, clickElement {id=f.E06F399ACBD55F828207880530D80EBB.d.59E63F6C5AB7C3AC446EA267725AC1CB.e.183}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58597/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+Session ID: db067ff8a95445461bda205a5707dc1d
+[INFO ] 2025-01-05 22:10:34.269 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-05 22:10:34.872 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Carrot Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-05 22:10:35.931 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Placed Carrot Juice')]]
+[INFO ] 2025-01-05 22:10:36.469 [TestNG-PoolService-4] WebStepDef - Placed Carrot Juice
+[INFO ] 2025-01-05 22:10:36.478 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-05 22:10:37.019 [TestNG-PoolService-4] WebStepDef - Basket updated with count 4
+[INFO ] 2025-01-05 22:10:37.030 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']]
+[INFO ] 2025-01-05 22:10:37.624 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Eggfruit Juice')]//ancestor::mat-card//*[text()='Add to Basket']
+[INFO ] 2025-01-05 22:10:38.684 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Placed Eggfruit Juice')]]
+[INFO ] 2025-01-05 22:10:39.227 [TestNG-PoolService-4] WebStepDef - Placed Eggfruit Juice
+[INFO ] 2025-01-05 22:10:39.233 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //button[@aria-label='Show the shopping cart']//span[contains(@class,'notification')]]
+[INFO ] 2025-01-05 22:10:39.769 [TestNG-PoolService-4] WebStepDef - Basket updated with count 5
+[INFO ] 2025-01-05 22:10:40.328 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-05 22:10:40.920 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-05 22:10:40.927 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-05 22:10:41.505 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-05 22:10:41.512 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-05 22:10:42.080 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-05 22:10:42.090 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-05 22:10:42.625 [TestNG-PoolService-4] WebBasePage - Click element failed,Retrying click, Attempt left:2, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2],Exception :stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.205)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [db067ff8a95445461bda205a5707dc1d, executeScript {args=[{element-6066-11e4-a52e-4f735466cecf=f.E06F399ACBD55F828207880530D80EBB.d.59E63F6C5AB7C3AC446EA267725AC1CB.e.209}], script=arguments[0].style.border='0px solid red'}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\APZALB~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58597}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58597/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: db067ff8a95445461bda205a5707dc1d
+[INFO ] 2025-01-05 22:10:44.661 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Apple Juice')]/..//button[2]]
+[INFO ] 2025-01-05 22:10:45.241 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Apple Juice')]/..//button[2]
+[INFO ] 2025-01-05 22:10:45.257 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: price]
+[INFO ] 2025-01-05 22:10:45.807 [TestNG-PoolService-4] WebStepDef - Current Total After increasing Apple Juice,total:22.82
+[INFO ] 2025-01-05 22:10:48.837 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: (//*[contains(text(),'Apple')]/..//button)[3]]
+[INFO ] 2025-01-05 22:10:49.397 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: price]
+[INFO ] 2025-01-05 22:10:49.950 [TestNG-PoolService-4] WebStepDef - Current Total After deleting a product,total:24.810000000000002
+[INFO ] 2025-01-05 22:10:49.967 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Checkout')]]
+[INFO ] 2025-01-05 22:10:50.588 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Checkout')]
+[INFO ] 2025-01-05 22:10:50.602 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //button[@aria-label='Add a new address']]
+[INFO ] 2025-01-05 22:10:51.196 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //button[@aria-label='Add a new address']
+[INFO ] 2025-01-05 22:10:51.210 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //input[@placeholder='Please provide a country.']]
+[INFO ] 2025-01-05 22:10:51.816 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //input[@placeholder='Please provide a name.']]
+[INFO ] 2025-01-05 22:10:52.412 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //input[@placeholder='Please provide a mobile number.']]
+[INFO ] 2025-01-05 22:10:53.019 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //input[@placeholder='Please provide a ZIP code.']]
+[INFO ] 2025-01-05 22:10:53.612 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //textarea[@placeholder='Please provide an address.']]
+[INFO ] 2025-01-05 22:10:54.216 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //input[@placeholder='Please provide a city.']]
+[INFO ] 2025-01-05 22:10:54.805 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //input[@placeholder='Please provide a state.']]
+[INFO ] 2025-01-05 22:10:55.405 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: submitButton]
+[INFO ] 2025-01-05 22:10:56.000 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-05 22:10:57.076 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Charlie')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-05 22:10:57.667 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Charlie')]/..//input[@type='radio']/..
+[INFO ] 2025-01-05 22:10:57.677 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-05 22:10:58.257 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-05 22:10:58.792 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'One Day Delivery')]/..//input/..]
+[INFO ] 2025-01-05 22:10:59.386 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'One Day Delivery')]/..//input/..
+[INFO ] 2025-01-05 22:10:59.392 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-05 22:11:00.032 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-05 22:11:00.052 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Wallet Balance')]/following-sibling::span]
+[INFO ] 2025-01-05 22:11:00.603 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Add a credit or debit card')]]
+[INFO ] 2025-01-05 22:11:01.177 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Add a credit or debit card')]
+[INFO ] 2025-01-05 22:11:01.187 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: (//*[@role='region']//input)[1]]
+[INFO ] 2025-01-05 22:11:01.785 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: (//*[@role='region']//input)[2]]
+[INFO ] 2025-01-05 22:11:02.398 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Expiry Month')]/ancestor::div/select]
+[INFO ] 2025-01-05 22:11:03.037 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Expiry Year')]/ancestor::div/select]
+[INFO ] 2025-01-05 22:11:03.639 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> id: submitButton]
+[INFO ] 2025-01-05 22:11:04.217 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.id: submitButton
+[INFO ] 2025-01-05 22:11:05.801 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'has been saved for your convenience.')]]
+[INFO ] 2025-01-05 22:11:06.356 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Charlie')]/..//input[@type='radio']/..]
+[INFO ] 2025-01-05 22:11:06.951 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Charlie')]/..//input[@type='radio']/..
+[INFO ] 2025-01-05 22:11:06.959 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Continue')]]
+[INFO ] 2025-01-05 22:11:07.556 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Continue')]
+[INFO ] 2025-01-05 22:11:07.569 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Place your order and pay')]]
+[INFO ] 2025-01-05 22:11:08.135 [TestNG-PoolService-4] WebBasePage - Clicked Element, Locator Used : By.xpath: //*[contains(text(),'Place your order and pay')]
+[INFO ] 2025-01-05 22:11:08.653 [TestNG-PoolService-4] WebBasePage - Located Element, Locator Used : [[ChromeDriver: chrome on windows (db067ff8a95445461bda205a5707dc1d)] -> xpath: //*[contains(text(),'Thank you for your purchase!')]]
+[INFO ] 2025-01-05 22:11:09.200 [TestNG-PoolService-4] WebStepDef - Order id:fb47-93e6796a868ad1b2
+[INFO ] 2025-01-05 22:11:09.504 [TestNG-PoolService-4] Hooks - Execution completed for scenario:Task4-Verify the checkout flow with payment,Status:Pass
+[INFO ] 2025-01-05 22:11:09.509 [main] Hooks - Test Execution Finished
+[INFO ] 2025-01-05 22:11:09.509 [main] Hooks - ---------***********************************--------------
