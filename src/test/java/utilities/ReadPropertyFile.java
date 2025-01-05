@@ -13,7 +13,7 @@ public class ReadPropertyFile {
 
     public ReadPropertyFile() {
         properties = new Properties();
-        String path = System.getProperty("user.dir") + "\\src\\test\\resources\\";
+        String path = System.getProperty("user.dir") + "/src/test/resources/";
         try (FileInputStream inputStream = new FileInputStream(path + "config.properties")) {
             properties.load(inputStream);
 
