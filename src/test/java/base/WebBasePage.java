@@ -71,6 +71,7 @@ public class WebBasePage extends WebPageInstance {
         ChromeOptions options = new ChromeOptions();
         Map<String, Object> preference = new LinkedHashMap<>();
         options.addArguments("disable-notifications");
+        options.addArguments("--headless");
         preference.put("credentials_enable_service", Boolean.FALSE);
         preference.put("profile.password_manager_enabled", Boolean.FALSE);
         options.setExperimentalOption("prefs", preference);
