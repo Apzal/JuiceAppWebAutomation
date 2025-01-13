@@ -1,6 +1,6 @@
 # 🥒 Cucumber Selenium Framework Assignment
 
-This is an assignment project created to test the [Juice Shop](https://juice-shop.herokuapp.com/) using Cucumber Java and Selenium
+This is a sample project created to test the [Juice Shop](https://juice-shop.herokuapp.com/) using Cucumber Java and Selenium
 
 ## Table of Contents
 
